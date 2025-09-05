@@ -15,6 +15,7 @@ class CalculatorTest {
     }
 
     @Test
+
     void add_twoPositiveNumbers() {
         double r = calc.calculate(10, 5, Calculator.Operator.ADD);
         assertEquals(15.0, r, 1e-9);
